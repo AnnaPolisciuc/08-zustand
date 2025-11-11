@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/08-zustand/app/page.tsx"],"sourcesContent":["import css from './Page.module.css';\n\nexport default function HomePage() {\n  return (\n    <main>\n      <div className={css.container}>\n        <h1 className={css.title}>Welcome to NoteHub</h1>\n        <p className={css.description}>\n          NoteHub is a simple and efficient application designed for managing personal notes. It helps keep your thoughts organized and accessible in one place, whether you are at home or on the go.\n        </p>\n        <p className={css.description}>\n          The app provides a clean interface for writing, editing, and browsing notes. With support for keyword search and structured organization, NoteHub offers a streamlined experience for anyone who values clarity and productivity.\n        </p>\n      </div>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;kBACC,cAAA,8OAAC;YAAI,WAAW,kIAAG,CAAC,SAAS;;8BAC3B,8OAAC;oBAAG,WAAW,kIAAG,CAAC,KAAK;8BAAE;;;;;;8BAC1B,8OAAC;oBAAE,WAAW,kIAAG,CAAC,WAAW;8BAAE;;;;;;8BAG/B,8OAAC;oBAAE,WAAW,kIAAG,CAAC,WAAW;8BAAE;;;;;;;;;;;;;;;;;AAMvC","debugId":null}}]
+}

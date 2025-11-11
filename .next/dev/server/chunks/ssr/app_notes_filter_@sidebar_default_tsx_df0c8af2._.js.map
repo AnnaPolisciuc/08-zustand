@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/08-zustand/app/notes/filter/%40sidebar/default.tsx"],"sourcesContent":["export default function SidebarDefault() {\n    return null; \n  }"],"names":[],"mappings":";;;;AAAe,SAAS;IACpB,OAAO;AACT","debugId":null}}]
+}

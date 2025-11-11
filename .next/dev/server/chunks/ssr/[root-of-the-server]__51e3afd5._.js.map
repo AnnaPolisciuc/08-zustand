@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/08-zustand/components/TanStackProvider/TanStackProvider.tsx"],"sourcesContent":["'use client';\nimport { QueryClient, QueryClientProvider } from '@tanstack/react-query';\nimport { ReactNode, useState } from 'react';\n\nexport default function TanStackProvider({ children }: { children: ReactNode }) {\n  const [queryClient] = useState(() => new QueryClient());\n  return <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>;\n}\n"],"names":[],"mappings":";;;;;AACA;AAAA;AACA;AAFA;;;;AAIe,SAAS,iBAAiB,EAAE,QAAQ,EAA2B;IAC5E,MAAM,CAAC,YAAY,GAAG,IAAA,iNAAQ,EAAC,IAAM,IAAI,4LAAW;IACpD,qBAAO,8OAAC,6MAAmB;QAAC,QAAQ;kBAAc;;;;;;AACpD","debugId":null}}]
+}

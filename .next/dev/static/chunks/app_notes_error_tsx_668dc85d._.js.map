@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/08-zustand/app/notes/error.tsx"],"sourcesContent":["\"use client\";\n\ninterface ErrorProps {\n  error: Error;\n  reset: () => void;\n}\n\nexport default function ErrorComponent({ error, reset }: ErrorProps) {\n  return (\n    <div>\n     <p> Could not fetch the list of notes. {error.message}</p>\n     <button onClick={reset}>Try again</button>\n     </div>\n    );\n}"],"names":[],"mappings":";;;;;AAAA;;AAOe,SAAS,eAAe,EAAE,KAAK,EAAE,KAAK,EAAc;IACjE,qBACE,6LAAC;;0BACA,6LAAC;;oBAAE;oBAAqC,MAAM,OAAO;;;;;;;0BACrD,6LAAC;gBAAO,SAAS;0BAAO;;;;;;;;;;;;AAG7B;KAPwB","debugId":null}}]
+}

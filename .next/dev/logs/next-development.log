@@ -1,0 +1,206 @@
+[00:00:01.558] Server  LOG      ✓ Ready in 1389ms
+[00:04:29.798] Browser ERROR   ./app/layout.tsx:15:3
+Parsing ecmascript source code failed
+  13 | }) 
+  14 | {
+> 15 |   export const metadata: Metadata = {
+     |   ^^^^^^
+  16 |     title: 'Edit Profile',
+  17 |     description: 'Edit your user details and settings',
+  18 |   };
+
+'import', and 'export' cannot be used outside of module code
+[00:12:46.800] Browser ERROR   ./app/layout.tsx:28:18
+Parsing ecmascript source code failed
+  26 |           {children}
+  27 |           openGraph: {
+> 28 |             title: 
+     |                  ^
+  29 |           }
+  30 |           {modal}
+  31 |           <Footer />
+
+Expected '</', got ':'
+[00:13:37.151] Server  LOG      ✓ Compiled in 9ms
+[00:17:35.799] Browser ERROR   ./app/layout.tsx:14:3
+Parsing ecmascript source code failed
+  12 |     description: "NoteHub is a simple and efficient application designed for managing personal notes. It helps keep your thoughts organized and accessible in one place, whether you are at home or on the go.",
+  13 |     url: 
+> 14 |   }
+     |   ^
+  15 | };
+  16 |
+  17 | export default function RootLayout({
+
+Expression expected
+[00:17:58.715] Server  ERROR    ⨯ ./app/layout.tsx:14:3
+Parsing ecmascript source code failed
+  12 |     description: "NoteHub is a simple and efficient application designed for managing personal notes. It helps keep your thoughts organized and accessible in one place, whether you are at home or on the go.",
+  13 |     url: 
+> 14 |   }
+     |   ^
+  15 | };
+  16 |
+  17 | export default function RootLayout({
+
+Expression expected
+
+
+[00:17:59.245] Browser ERROR   uncaughtError: Error: ./app/layout.tsx:14:3
+Parsing ecmascript source code failed
+  12 |     description: "NoteHub is a simple and efficient application designed for managing personal notes. It helps keep your thoughts organized and accessible in one place, whether you are at home or on the go.",
+  13 |     url: 
+> 14 |   }
+     |   ^
+  15 | };
+  16 |
+  17 | export default function RootLayout({
+
+Expression expected
+
+
+[00:17:59.398] Browser ERROR   ./app/layout.tsx:14:3
+Parsing ecmascript source code failed
+  12 |     description: "NoteHub is a simple and efficient application designed for managing personal notes. It helps keep your thoughts organized and accessible in one place, whether you are at home or on the go.",
+  13 |     url: 
+> 14 |   }
+     |   ^
+  15 | };
+  16 |
+  17 | export default function RootLayout({
+
+Expression expected
+[00:17:59.398] Browser ERROR   ./app/layout.tsx:14:3
+Parsing ecmascript source code failed
+  12 |     description: "NoteHub is a simple and efficient application designed for managing personal notes. It helps keep your thoughts organized and accessible in one place, whether you are at home or on the go.",
+  13 |     url: 
+> 14 |   }
+     |   ^
+  15 | };
+  16 |
+  17 | export default function RootLayout({
+
+Expression expected
+[00:17:59.398] Browser ERROR   ./app/layout.tsx:14:3
+Parsing ecmascript source code failed
+  12 |     description: "NoteHub is a simple and efficient application designed for managing personal notes. It helps keep your thoughts organized and accessible in one place, whether you are at home or on the go.",
+  13 |     url: 
+> 14 |   }
+     |   ^
+  15 | };
+  16 |
+  17 | export default function RootLayout({
+
+Expression expected
+[00:17:59.398] Browser ERROR   ./app/layout.tsx:14:3
+Parsing ecmascript source code failed
+  12 |     description: "NoteHub is a simple and efficient application designed for managing personal notes. It helps keep your thoughts organized and accessible in one place, whether you are at home or on the go.",
+  13 |     url: 
+> 14 |   }
+     |   ^
+  15 | };
+  16 |
+  17 | export default function RootLayout({
+
+Expression expected
+[00:17:59.798] Browser ERROR   ./app/layout.tsx:14:3
+Parsing ecmascript source code failed
+  12 |     description: "NoteHub is a simple and efficient application designed for managing personal notes. It helps keep your thoughts organized and accessible in one place, whether you are at home or on the go.",
+  13 |     url: 
+> 14 |   }
+     |   ^
+  15 | };
+  16 |
+  17 | export default function RootLayout({
+
+Expression expected
+[00:17:59.798] Browser ERROR   ./app/layout.tsx:14:3
+Parsing ecmascript source code failed
+  12 |     description: "NoteHub is a simple and efficient application designed for managing personal notes. It helps keep your thoughts organized and accessible in one place, whether you are at home or on the go.",
+  13 |     url: 
+> 14 |   }
+     |   ^
+  15 | };
+  16 |
+  17 | export default function RootLayout({
+
+Expression expected
+[00:17:59.798] Browser ERROR   ./app/layout.tsx:14:3
+Parsing ecmascript source code failed
+  12 |     description: "NoteHub is a simple and efficient application designed for managing personal notes. It helps keep your thoughts organized and accessible in one place, whether you are at home or on the go.",
+  13 |     url: 
+> 14 |   }
+     |   ^
+  15 | };
+  16 |
+  17 | export default function RootLayout({
+
+Expression expected
+[00:17:59.798] Browser ERROR   ./app/layout.tsx:14:3
+Parsing ecmascript source code failed
+  12 |     description: "NoteHub is a simple and efficient application designed for managing personal notes. It helps keep your thoughts organized and accessible in one place, whether you are at home or on the go.",
+  13 |     url: 
+> 14 |   }
+     |   ^
+  15 | };
+  16 |
+  17 | export default function RootLayout({
+
+Expression expected
+[00:19:04.798] Browser ERROR   ./app/layout.tsx:21:3
+Parsing ecmascript source code failed
+  19 |         alt: note.title,
+  20 |       },
+> 21 |   }
+     |   ^
+  22 | };
+  23 |
+  24 | export default function RootLayout({
+
+Expression expected
+[00:20:00.798] Browser ERROR   ./app/layout.tsx:21:3
+Parsing ecmascript source code failed
+  19 |         alt: 'NoteHub',
+  20 |       },
+> 21 |   }
+     |   ^
+  22 | };
+  23 |
+  24 | export default function RootLayout({
+
+Expression expected
+[00:28:26.799] Browser ERROR   ./app/not-found.tsx:6:37
+Parsing ecmascript source code failed
+  4 | export const metadata: Metadata ={
+  5 |   title: 'Page Not Found - NoteHub',
+> 6 |   description: 'Sorry, the page you're looking '
+    |                                     ^^
+  7 | }
+  8 | export default function NotFound() {
+  9 |   return (
+
+Expected ',', got 're'
+[00:28:38.314] Server  LOG      ✓ Compiled in 13ms
+[00:40:17.799] Browser ERROR   ./app/notes/filter/[...slug]/page.tsx:13:1
+Parsing ecmascript source code failed
+  11 |   const filter = params.slug?.[0] || "all";
+  12 |   const filterName = filter === "all" ?
+> 13 | }
+     | ^
+  14 | export default function NotesByTag(){
+  15 |   return <NotesClient />;
+  16 | }
+
+Expression expected
+[00:41:48.799] Browser ERROR   ./app/notes/filter/[...slug]/page.tsx:16:1
+Parsing ecmascript source code failed
+  14 |   const title = `${filterName} - NoteHub`;
+  15 |   const description = 
+> 16 | }
+     | ^
+  17 | export default function NotesByTag(){
+  18 |   return <NotesClient />;
+  19 | }
+
+Expression expected
+[01:01:45.872] Server  LOG      ✓ Compiled in 718ms

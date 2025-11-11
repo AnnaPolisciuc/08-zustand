@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/notes/LayoutNotes.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"container\": \"LayoutNotes-module__tSNQZa__container\",\n  \"notesWrapper\": \"LayoutNotes-module__tSNQZa__notesWrapper\",\n  \"sidebar\": \"LayoutNotes-module__tSNQZa__sidebar\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA"}},
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/08-zustand/app/notes/layout.tsx"],"sourcesContent":["import type { ReactNode } from \"react\";\nimport css from \"./LayoutNotes.module.css\"\n\ninterface LayoutNotesProps {\n  children: ReactNode; \n  sidebar?: ReactNode;  \n  modal?: ReactNode;   \n}\n\nexport default function LayoutNotes({ children, sidebar, modal }: LayoutNotesProps) {\n  return (\n    <div className={css.container}>\n      {sidebar && (\n        <aside className={css.sidebar}>\n          {sidebar}\n        </aside>\n      )}\n      <main className={css.notesWrapper}>\n        {children}\n        {modal}\n      </main>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AACA;;;AAQe,SAAS,YAAY,EAAE,QAAQ,EAAE,OAAO,EAAE,KAAK,EAAoB;IAChF,qBACE,8OAAC;QAAI,WAAW,kJAAG,CAAC,SAAS;;YAC1B,yBACC,8OAAC;gBAAM,WAAW,kJAAG,CAAC,OAAO;0BAC1B;;;;;;0BAGL,8OAAC;gBAAK,WAAW,kJAAG,CAAC,YAAY;;oBAC9B;oBACA;;;;;;;;;;;;;AAIT","debugId":null}}]
+}

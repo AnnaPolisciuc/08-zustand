@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/08-zustand/app/notes/LayoutNotes.module.css"],"sourcesContent":[".container {\n    display: flex;\n    flex-direction: row;\n    flex: 1;\n  }\n  \n  .sidebar {\n    width: 250px;\n    background-color: #2c2c2c;\n    color: white;\n    padding: 16px;\n    display: flex;\n    flex-direction: column;\n    border-right: 1px solid #ddd;\n  }\n  \n  .notesWrapper {\n    width: 100%;\n  }"],"names":[],"mappings":"AAAA;;;;;;AAME;;;;;;;;;;AAUA","debugId":null}}]
+}
