@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/08-zustand/app/notes/%5Bid%5D/error.tsx"],"sourcesContent":["\"use client\";\n\ninterface ErrorProps {\n  error: Error;\n  reset: () => void;\n}\n\nexport default function ErrorComponent({ error, reset }: ErrorProps) {\n  return (\n    <div>\n     <p>Something went wrong. {error.message}</p>\n     <button \n     className=\"bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600\"\n     onClick={reset}>Try again</button>\n     </div>\n    );\n}"],"names":[],"mappings":";;;;;AAAA;;AAOe,SAAS,eAAe,EAAE,KAAK,EAAE,KAAK,EAAc;IACjE,qBACE,8OAAC;;0BACA,8OAAC;;oBAAE;oBAAuB,MAAM,OAAO;;;;;;;0BACvC,8OAAC;gBACD,WAAU;gBACV,SAAS;0BAAO;;;;;;;;;;;;AAGrB","debugId":null}}]
+}

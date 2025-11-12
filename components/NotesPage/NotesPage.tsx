@@ -1,7 +1,7 @@
 "use client";
 
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { fetchNotesByTag, deleteNote } from "@/lib/api";
+import {  deleteNote, fetchNotes } from "@/lib/api";
 import NoteList from "../NoteList/NoteList";
 import { NoteCreate } from "@/types/note";
 
@@ -14,15 +14,13 @@ export default function NotesPage({ tag }: NotesPageProps) {
 
   const { data, isLoading } = useQuery({
     queryKey: ["notes", tag],
-    queryFn: () => fetchNotesByTag(tag),
+    queryFn: () => fetchNotes(1, 12, "", tag),
   });
 
   const deleteMutation = useMutation({
     mutationFn: deleteNote,
     onSuccess: () => queryClient.invalidateQueries({ queryKey: ["notes", tag] }),
   });
-
-  const handleDelete = (id: string) => deleteMutation.mutate(id);
 
   if (isLoading) return <p>Loading notes...</p>;
   if (!data?.notes.length) return <p>No notes found.</p>;

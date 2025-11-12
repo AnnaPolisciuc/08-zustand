@@ -1,16 +1,16 @@
-// app/notes/filter/layout.tsx
 
-import NotesClient from '../filter/[...slug]/Notes.client';
-import SidebarNotes from './@sidebar/SidebarNotes';
+import type { ReactNode } from 'react';
 
-export default function FilterLayout() {
+interface FilterLayoutProps {
+  children: ReactNode;
+  sidebar: ReactNode;
+}
 
+export default function FilterLayout({ children, sidebar }: FilterLayoutProps) {
   return (
     <div style={{ display: 'flex', gap: '20px' }}>
-      <SidebarNotes />
-      <main style={{ flex: 1 }}>
-        <NotesClient />
-      </main>
+      {sidebar}
+      <main style={{ flex: 1 }}>{children}</main>
     </div>
   );
 }

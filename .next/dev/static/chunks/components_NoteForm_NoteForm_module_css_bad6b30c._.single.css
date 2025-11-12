@@ -69,4 +69,9 @@
   font-size: 12px;
 }
 
+.NoteForm-module__XA_SlW__buttons {
+  flex-direction: column-reverse;
+  display: flex;
+}
+
 /*# sourceMappingURL=components_NoteForm_NoteForm_module_css_bad6b30c._.single.css.map*/

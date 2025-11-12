@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///Users/annapolisciuc/Desktop/Projects/08-zustand/app/notes/filter/layout.tsx"],"sourcesContent":["\nimport type { ReactNode } from 'react';\n\ninterface FilterLayoutProps {\n  children: ReactNode;\n  sidebar: ReactNode;\n}\n\nexport default function FilterLayout({ children, sidebar }: FilterLayoutProps) {\n  return (\n    <div style={{ display: 'flex', gap: '20px' }}>\n      {sidebar}\n      <main style={{ flex: 1 }}>{children}</main>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAQe,SAAS,aAAa,EAAE,QAAQ,EAAE,OAAO,EAAqB;IAC3E,qBACE,8OAAC;QAAI,OAAO;YAAE,SAAS;YAAQ,KAAK;QAAO;;YACxC;0BACD,8OAAC;gBAAK,OAAO;oBAAE,MAAM;gBAAE;0BAAI;;;;;;;;;;;;AAGjC","debugId":null}}]
+}

@@ -5,7 +5,6 @@ import type { NoteCreate, Note } from "../types/note";
 export interface NoteResponse {
   notes: Note[];
   totalPages: number;
-  page: number;
 }
 
 const TOKEN = process.env.NEXT_PUBLIC_NOTEHUB_TOKEN;
@@ -38,20 +37,9 @@ export async function deleteNote(id: string): Promise<Note> {
   return data;
 }
 
-
 export async function fetchNoteById(id: string): Promise<Note> {
   if (!id) throw new Error("Note id is required");
   const response = await api.get<Note>(`/${id}`);
   return response.data;
 }
-
-export async function fetchNotesByTag(tag?: string, page = 1, perPage = 12): Promise<NoteResponse> {
-  const params: Record<string, string | number> = { page, perPage };
-  
-  if (tag && tag !== "all") params.tag = tag; 
-
-  const { data } = await api.get<NoteResponse>("/", { params });
-  return data;
-}
-
 

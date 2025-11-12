@@ -69,3 +69,8 @@
     font-size: 12px;
     margin-top: 4px;
   }
+
+  .buttons {
+    display: flex;
+    flex-direction:column-reverse;
+  }
