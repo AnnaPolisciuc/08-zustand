@@ -1,6 +1,6 @@
 import Link from "next/link";
-import css from "./SidebarNotes.module.css"; 
-import { ReactElement } from "react";
+import css from "./SidebarNotes.module.css";
+import type { ReactElement } from "react";
 
 const TAGS = ["Todo", "Work", "Personal", "Meeting", "Shopping"] as const;
 

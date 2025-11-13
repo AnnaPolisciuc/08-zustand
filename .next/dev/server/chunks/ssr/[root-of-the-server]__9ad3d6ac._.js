@@ -180,7 +180,7 @@ async function generateMetadata({ params }) {
         openGraph: {
             title,
             description,
-            url: `https://07-routing-nextjs-phi-black.vercel.app/notes/filter/${filter}`,
+            url: `https://08-zustand-beige.vercel.app/notes/filter/${filter}`,
             images: [
                 {
                     url: "https://ac.goit.global/fullstack/react/notehub-og-meta.jpg",

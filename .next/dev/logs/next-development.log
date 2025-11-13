@@ -1,20 +1,2 @@
-[00:00:00.597] Server  LOG      ✓ Ready in 435ms
-[00:00:10.040] Browser LOG     NotesClient tag: undefined page: 1 search: 
-[00:00:10.040] Browser LOG     [2;38;2;124;124;124m%s[0m NotesClient tag: undefined page: 1 search: 
-[00:00:20.119] Browser LOG     NotesClient tag: Personal page: 1 search: 
-[00:00:20.119] Browser LOG     [2;38;2;124;124;124m%s[0m NotesClient tag: Personal page: 1 search: 
-[00:00:27.252] Browser LOG     NotesClient tag: Todo page: 1 search: 
-[00:00:27.252] Browser LOG     [2;38;2;124;124;124m%s[0m NotesClient tag: Todo page: 1 search: 
-[00:00:29.004] Browser LOG     NotesClient tag: Personal page: 1 search: 
-[00:00:29.004] Browser LOG     [2;38;2;124;124;124m%s[0m NotesClient tag: Personal page: 1 search: 
-[00:00:29.004] Browser LOG     NotesClient tag: Personal page: 1 search: 
-[00:00:29.004] Browser LOG     [2;38;2;124;124;124m%s[0m NotesClient tag: Personal page: 1 search: 
-[00:00:29.308] Browser LOG     NotesClient tag: Personal page: 1 search: 
-[00:00:29.308] Browser LOG     [2;38;2;124;124;124m%s[0m NotesClient tag: Personal page: 1 search: 
-[00:00:29.636] Browser LOG     NotesClient tag: Personal page: 1 search: 
-[00:00:29.636] Browser LOG     [2;38;2;124;124;124m%s[0m NotesClient tag: Personal page: 1 search: 
-[00:00:43.988] Browser LOG     NotesClient tag: Personal page: 1 search: 
-[00:00:43.988] Browser LOG     [2;38;2;124;124;124m%s[0m NotesClient tag: Personal page: 1 search: 
-[00:00:43.988] Browser LOG     NotesClient tag: Personal page: 1 search: 
-[00:00:43.988] Browser LOG     [2;38;2;124;124;124m%s[0m NotesClient tag: Personal page: 1 search: 
-[00:01:07.107] Server  LOG      ✓ Compiled in 5ms
+[00:00:00.757] Server  LOG      ✓ Ready in 575ms
+[00:06:38.485] Server  LOG      ✓ Compiled in 12ms
