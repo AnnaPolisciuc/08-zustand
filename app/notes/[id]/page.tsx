@@ -16,7 +16,7 @@ export async function generateMetadata({params}:NotePageProps): Promise<Metadata
     openGraph: {
       title: `Note: ${note.title}`,
       description: note.content.slice(0, 100),
-      url: `https://07-routing-nextjs-phi-black.vercel.app/notes/${id}`,
+      url: `https://08-zustand-beige.vercel.app/notes/${id}`,
       siteName: 'NoteHub',
       images: [
         {
